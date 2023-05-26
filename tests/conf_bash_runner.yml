@@ -1,0 +1,5 @@
+log_dir: .
+max_task: 0
+qsub_option: ''
+retry_count: 1
+runner: bash
