@@ -16,7 +16,6 @@ setup(
     classifiers = [
         'Development Status :: 3 - Alpha',
         'Intended Audience :: Science/Research',
-        'Topic :: Genome Analysis :: RNA-seq',
         'Operating System :: Unix',
         'Programming Language :: Python :: 3.7',
         'Topic :: Scientific/Engineering :: Bio-Informatics'
