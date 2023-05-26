@@ -46,5 +46,5 @@ runner: bash         # choose in ['qsub', 'drmaa', 'slurm', 'bash']
 gcat_runner run.sh conf.yml
 ```
 
-options:
+options:  
   `--interval seconds`: Randomly modify job submission within the specified range of 0 to the specified number of seconds.
