@@ -36,7 +36,8 @@ runner: bash         # choose in ['qsub', 'drmaa', 'slurm', 'bash', 'openpbs']
                      # qsub: task runs with 'qsub -sync'
                      # drmaa: task runs with drmaa library
                      # slurm: task runs with 'sbatch --wait'
-                     # qsub: task runs with 'bash'
+                     # bash: task runs with 'bash'
+                     # openpbs: task runs with 'qsub -Wblock=true'
 ```
 
 3. Run
