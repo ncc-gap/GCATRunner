@@ -59,8 +59,8 @@ class Qsub_runner(Runner):
         else:
             qsub_commands = ['qsub', '-sync', 'yes', '-N', self.jobname]
 
-        if self.max_task != 0:
-            qsub_commands.extend(['-t', '1-'+str(self.max_task)+':1'])
+        #if self.max_task != 0:
+        #    qsub_commands.extend(['-t', '1-'+str(self.max_task)+':1'])
 
         qsub_options = []
         if type(self.qsub_option) == type(""):
