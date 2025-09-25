@@ -30,7 +30,6 @@ echo "success"
 With YAML format, for example, conf.yml
 ```
 log_dir: .           # log output directory
-max_task: 0          # count of array job (default 0)
 qsub_option: ''      # qsub/slurm command options (invalid with bash-runner)
 retry_count: 1       # number for retry 
 runner: bash         # choose in ['qsub', 'drmaa', 'slurm', 'bash']
