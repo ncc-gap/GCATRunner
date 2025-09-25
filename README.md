@@ -32,7 +32,7 @@ With YAML format, for example, conf.yml
 log_dir: .           # log output directory
 qsub_option: ''      # qsub/slurm command options (invalid with bash-runner)
 retry_count: 1       # number for retry 
-runner: bash         # choose in ['qsub', 'drmaa', 'slurm', 'bash']
+runner: bash         # choose in ['qsub', 'drmaa', 'slurm', 'bash', 'openpbs']
                      # qsub: task runs with 'qsub -sync'
                      # drmaa: task runs with drmaa library
                      # slurm: task runs with 'sbatch --wait'
